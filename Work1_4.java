@@ -2,15 +2,15 @@
 public class Work1_4 {
 	public static void main(String[] args)
 	{
-	String name="Владимир";
+	String name="Admin";
 	String password="1234";
 	if(args[0].equals(name) && args[1].equals(password))
 	{
-	System.out.println("Вас узнали. Добро пожаловать");
+	System.out.println("Р’Р°СЃ СѓР·РЅР°Р»Рё. Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ");
 	}
 	else
 	{
-	System.out.println("Логин и пароль не распознаны. Доступ запрещен.");
+	System.out.println("Р›РѕРіРёРЅ Рё РїР°СЂРѕР»СЊ РЅРµ СЂР°СЃРїРѕР·РЅР°РЅС‹. Р”РѕСЃС‚СѓРї Р·Р°РїСЂРµС‰РµРЅ.");
 	}
 	}}
 
