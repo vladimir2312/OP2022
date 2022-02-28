@@ -4,11 +4,11 @@ public class Work1_2 {
 	{
 	if(args.length > 0)
 	{
-		System.out.println("Вы ввели "+args.length+" параметров");
+		System.out.println("Р’С‹ РІРІРµР»Рё "+args.length+" РїР°СЂР°РјРµС‚СЂРѕРІ");
 	}
 	else
 	{
-		System.out.println("Вы не передавали параметров ");
+		System.out.println("Р’С‹ РЅРµ РїРµСЂРµРґР°РІР°Р»Рё РїР°СЂР°РјРµС‚СЂРѕРІ ");
 	}
 
 	}}
