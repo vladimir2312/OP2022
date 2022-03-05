@@ -4,7 +4,7 @@ public class Work1_2 {
 	{
 	if(args.length > 0)
 	{
-		System.out.println("Вы ввели"+args.length+" параметров");
+		System.out.println("Вы ввели "+args.length+" параметров");
 	}
 	else
 	{
