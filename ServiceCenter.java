@@ -1,27 +1,27 @@
 /*
-* Вариант 12). Станция техобслуживания
-* - Service Center:							 Конструктор
-* - Свойства:							
-* - название станции;					   	 название станции;
-* - адрес станции;						   	 адрес станции;
-* - название автотранспорта на ремонте;	     название автотранспорта на ремонте;
-* - вид ремонта;							 вид ремонта;
-* - дата поступления;						дата поступления;
-* - дата выдачи;
-* - результат ремонта;
-* - фамилия персонала;
-* - сумма ремонта;
+* Р’Р°СЂРёР°РЅС‚ 12). РЎС‚Р°РЅС†РёСЏ С‚РµС…РѕР±СЃР»СѓР¶РёРІР°РЅРёСЏ
+* - Service Center:							 РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
+* - РЎРІРѕР№СЃС‚РІР°:							
+* - РЅР°Р·РІР°РЅРёРµ СЃС‚Р°РЅС†РёРё;					   	 РЅР°Р·РІР°РЅРёРµ СЃС‚Р°РЅС†РёРё;
+* - Р°РґСЂРµСЃ СЃС‚Р°РЅС†РёРё;						   	 Р°РґСЂРµСЃ СЃС‚Р°РЅС†РёРё;
+* - РЅР°Р·РІР°РЅРёРµ Р°РІС‚РѕС‚СЂР°РЅСЃРїРѕСЂС‚Р° РЅР° СЂРµРјРѕРЅС‚Рµ;	     РЅР°Р·РІР°РЅРёРµ Р°РІС‚РѕС‚СЂР°РЅСЃРїРѕСЂС‚Р° РЅР° СЂРµРјРѕРЅС‚Рµ;
+* - РІРёРґ СЂРµРјРѕРЅС‚Р°;							 РІРёРґ СЂРµРјРѕРЅС‚Р°;
+* - РґР°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ;						РґР°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ;
+* - РґР°С‚Р° РІС‹РґР°С‡Рё;
+* - СЂРµР·СѓР»СЊС‚Р°С‚ СЂРµРјРѕРЅС‚Р°;
+* - С„Р°РјРёР»РёСЏ РїРµСЂСЃРѕРЅР°Р»Р°;
+* - СЃСѓРјРјР° СЂРµРјРѕРЅС‚Р°;
 */
 public class ServiceCenter {
-	private String namestat;//Название станции
-	private String address;//Адрес станции
-	private String namecar;//Название авто в ремонте
-	private String typeofref;//Вид ремонта
-	private String date;//Дата поступления
-	private String dateextred;//Дата выдачи
-	private String result;//Результат ремонта
-	private String lastname;//Фамилия персонала
-	private int    sum;//Сумма ремонта
+	private String namestat;//РќР°Р·РІР°РЅРёРµ СЃС‚Р°РЅС†РёРё
+	private String address;//РђРґСЂРµСЃ СЃС‚Р°РЅС†РёРё
+	private String namecar;//РќР°Р·РІР°РЅРёРµ Р°РІС‚Рѕ РІ СЂРµРјРѕРЅС‚Рµ
+	private String typeofref;//Р’РёРґ СЂРµРјРѕРЅС‚Р°
+	private String date;//Р”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ
+	private String dateextred;//Р”Р°С‚Р° РІС‹РґР°С‡Рё
+	private String result;//Р РµР·СѓР»СЊС‚Р°С‚ СЂРµРјРѕРЅС‚Р°
+	private String lastname;//Р¤Р°РјРёР»РёСЏ РїРµСЂСЃРѕРЅР°Р»Р°
+	private int    sum;//РЎСѓРјРјР° СЂРµРјРѕРЅС‚Р°
 	public ServiceCenter(String namestat,String address,String namecar,String typeofref,String date) {
 		this.namestat = namestat;
 		this.address = address;
@@ -84,13 +84,13 @@ public class ServiceCenter {
 		return this.sum = sum;
 	}
 	public String toString() {
-		return "Название станции:" + namestat + "\nАдрес станции:" + address + "\nНазвание авто:" + namecar + "\nВид ремонта:" + typeofref + "\nДата послупления:" + date + "\nДата выдачи:" + dateextred + "\nРезультат ремонта:" + result + "\nФамилия персонала:" + lastname + "\nСумма ремонта:" + sum;
+		return "РќР°Р·РІР°РЅРёРµ СЃС‚Р°РЅС†РёРё:" + namestat + "\nРђРґСЂРµСЃ СЃС‚Р°РЅС†РёРё:" + address + "\nРќР°Р·РІР°РЅРёРµ Р°РІС‚Рѕ:" + namecar + "\nР’РёРґ СЂРµРјРѕРЅС‚Р°:" + typeofref + "\nР”Р°С‚Р° РїРѕСЃР»СѓРїР»РµРЅРёСЏ:" + date + "\nР”Р°С‚Р° РІС‹РґР°С‡Рё:" + dateextred + "\nР РµР·СѓР»СЊС‚Р°С‚ СЂРµРјРѕРЅС‚Р°:" + result + "\nР¤Р°РјРёР»РёСЏ РїРµСЂСЃРѕРЅР°Р»Р°:" + lastname + "\nРЎСѓРјРјР° СЂРµРјРѕРЅС‚Р°:" + sum;
 	}
 	public static void main(String args[]) {
-		ServiceCenter service = new ServiceCenter("OOO'Авто'","Москва","BMW e39","Покраска","05.04.2022");
+		ServiceCenter service = new ServiceCenter("OOO'РђРІС‚Рѕ'","РњРѕСЃРєРІР°","BMW e39","РџРѕРєСЂР°СЃРєР°","05.04.2022");
 		service.setDateextred("20.04.2022");
-		service.setResult("Окрашена");
-		service.setLastname("Иванов");
+		service.setResult("РћРєСЂР°С€РµРЅР°");
+		service.setLastname("РРІР°РЅРѕРІ");
 		service.setSum(100000);
 		System.out.print(service.toString());
 	}
